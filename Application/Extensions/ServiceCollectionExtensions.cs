@@ -8,6 +8,7 @@ namespace Microsoft.Extensions.DependencyInjection
         public static void AddApplicationServices (this IServiceCollection services)
         {
             services.AddScoped<IPatientService, PatientService>();
+            services.AddScoped<IBenefitService, BenefitService>();
         }
     }
 }

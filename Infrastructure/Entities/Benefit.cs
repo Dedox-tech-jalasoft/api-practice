@@ -5,6 +5,6 @@
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public IEnumerable<PatientBenefit> PatientsBenefits { get; set; }
+        public IEnumerable<PatientBenefit> PatientsBenefits { get; set; } = new List<PatientBenefit>();
     }
 }

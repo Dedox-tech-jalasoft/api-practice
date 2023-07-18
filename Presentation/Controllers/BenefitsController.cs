@@ -1,6 +1,5 @@
 ﻿using InsuranceAPI.Application.Contracts;
 using InsuranceAPI.Application.DTOs;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InsuranceAPI.Presentation.Controllers

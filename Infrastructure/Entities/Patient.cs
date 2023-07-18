@@ -8,6 +8,5 @@
         public int CarrierId { get; set; }
         public Carrier Carrier { get; set; } = new Carrier();
         public IEnumerable<PatientBenefit> PatientsBenefits { get; set; } = new List<PatientBenefit>();
-
     }
 }

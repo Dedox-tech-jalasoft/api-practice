@@ -8,6 +8,5 @@
         public Benefit Benefit { get; set; } = new Benefit();
         public string Frequency { get; set; } = string.Empty;
         public bool IsFullCoverage { get; set; }
-
     }
 }
